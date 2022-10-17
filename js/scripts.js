@@ -23,11 +23,13 @@ function div (number1, number2){
 const number1 = parseInt(prompt("Enter a number:"));
 const number2 = parseInt(prompt("Enter another number:"));
 
-// window.alert(add(number1, number2), sub(number1, number2));
-window.alert( add(number1, number2) + ' ' + sub(number1, number2) + ' ' + mult(number1, number2) + ' ' + div(number1, number2));
-// window.alert(sub(number1, number2));
-// window.alert(mult(number1, number2));
-// window.alert(div(number1, number2));
+
+// window.alert(The addition of your numbers equals ' + sub(number1, number2)));
+// window.alert('The subtraction of your numbers equals ' + sub(number1, number2));
+// window.alert('The multiplication of your numbers equals ' + mult(number1, number2));
+// window.alert('The division of your numbers equals ' + div(number1, number2));
+
+window.alert('The addition of your numbers equals ' + add(number1, number2) + '. The subtraction of your numbers equals ' + sub(number1, number2)  + '. The multiplication of your numbers equals ' + mult(number1, number2) + '. The division of your numbers equals ' + div(number1, number2));
 
 // const additionResult = add(10, 5);
 // window.alert(additionResult);
