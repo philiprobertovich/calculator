@@ -27,17 +27,17 @@ const number2 = parseInt(prompt("Enter another number:"));
 // window.alert(The addition of your numbers equals ' + sub(number1, number2)));
 // window.alert('The subtraction of your numbers equals ' + sub(number1, number2));
 // window.alert('The multiplication of your numbers equals ' + mult(number1, number2));
-// window.alert('The division of your numbers equals ' + div(number1, number2));\
+// window.alert('The division of your numbers equals ' + div(number1, number2));
 
 // let addition = 'The addition of your numbers equals ' + add(number1, number2);
 // let subtraction = '. The subtraction of your numbers equals ' + sub(number1, number2);
 // let multiplication = '. The multiplication of your numbers equals ' + mult(number1, number2);
 // let division = '. The division of your numbers equals ' + div(number1, number2);
 
-let addition = number1 + ' + ' + number2 + '=' + add(number1, number2) + ', '; 
-let subtraction = number1 + ' + ' + number2 + '=' + sub(number1, number2)  + ', ';
-let multiplication = number1 + ' * ' + number2 + '=' + mult(number1, number2) + ', ';
-let division = number1 + ' / ' + number2 + '=' + div(number1, number2) + ', '; 
+let addition = number1 + ' + ' + number2 + '=' + add(number1, number2) + "\n"; 
+let subtraction = number1 + ' - ' + number2 + '=' + sub(number1, number2)  + '\n';
+let multiplication = number1 + ' * ' + number2 + '=' + mult(number1, number2) + '\n';
+let division = number1 + ' / ' + number2 + '=' + div(number1, number2) + '.'; 
 
 window.alert(addition + subtraction + multiplication + division);
 
